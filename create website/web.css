@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 90vh;
+    background:linear-gradient(rgba(71, 71, 71, 0.8),rgba(0,0,0,0.8)), url(furqan.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+.logo{
+    font-family: sans-serif;
+    font-size: 2.5em;
+}
+.logo span{
+    color: rgb(100, 161, 241);
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+
+}
+.menu a:first-child{
+    color: rgb(100, 161, 241);;
+}
+.menu a:hover{
+    color: rgb(100, 161, 241);;
+}
+.h-text{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+    color: white;
+
+}
+.h-text h1{
+    color: rgb(100, 161, 241);
+}
+.h1{
+    text-align: center;
+    font-size: 50px;
+   margin-top: 50px;
+   color: rgb(100, 161, 241);
+   text-decoration: underline rgb(0, 0, 0);
+ 
+
+
+}
+/* 
+.container-1 img{
+margin-left: 750px;
+width: 600px;
+} */
+   
+
+.container-1 img{
+    margin-top: 40px;
+    margin-left: 770px;
+    width: 600px;
+    height: 450px;
+    
+       
+    }
+    
+    .container-1 p{
+        width: 680px;
+        margin-top: -460px;
+        font-size: 30px;
+        word-spacing: 5px;
+        line-height: 40px;
+        margin-left: 50px;
+    }
+
+.h2{
+    text-align: center;
+    font-size: 50px;
+   margin-top: 125px;
+   color: rgb(100, 161, 241);
+   text-decoration: underline rgb(0, 0, 0);
+
+
+}
+.container1 img{
+    margin-top: 100px;
+    margin-left: 750px;
+    width: 600px;
+    height: 450px;
+       
+    }
+    
+    .container1 p{
+        width: 680px;
+        margin-top: -460px;
+        font-size: 30px;
+        word-spacing: 5px;
+        line-height: 40px;
+        margin-left: 50px;
+    }
+    .reg{
+        text-align: center;
+        font-size: 50px;
+       margin-top: 100px;
+       color: rgb(100, 161, 241);
+       text-decoration: underline rgb(0, 0, 0);
+    
+    
+    }
+    .container {
+        background-image: url(logo1.jfif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* background-color: #fff; */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: rgb(250, 122, 122);
+    }
+    
+    input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #5cb85c;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #4cae4c;
+    }
+    
+    #message {
+        margin-top: 20px;
+        color: red;
+    }
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input, select, textarea, button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #218838;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    #successMessage {
+        text-align: center;
+        color: green;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;background-color: rgb(52, 64, 75);
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        background-color: rgb(133, 132, 132);
+    }
+    
+    .footer-container > div {
+        flex: 1;
+        margin: 10px;
+      
+    }
+    
+    .footer-about, .footer-links, .footer-contact, .footer-social {
+        min-width: 200px;
+    }
+    
+    .footer-about h3, .footer-links h3, .footer-contact h3, .footer-social h3 {
+        border-bottom: 2px solid #000000;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-links ul li {
+        margin: 5px 0;
+    }
+    
+    .footer-links ul li a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    .footer-links ul li a:hover {
+        text-decoration: underline;
+    }
+    
+    .footer-social a {
+        display: inline-block;
+        margin-right: 10px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    .footer-social a:hover {
+        text-decoration: underline;
+    }
+    
+    .footer-bottom {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #222;
+    }
+    
+    .footer-bottom p {
+        margin: 0;
+    }
